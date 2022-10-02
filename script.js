@@ -16,10 +16,11 @@ async function getData(){
 
         li.innerHTML = `
             <p><b>Category:</b> ${user.category}</p>
+            <div class="image">
           <img src="${user.image}" alt="${user.title}">
+          </div>
           <div class="user-info">
             <h2>${user.title}</h2>
-            <p>${user.description}</p>
             <p><b>Cost:</b> ${user.price}</p>
             <button class="btn">Add To Cart</button>
           </div>
